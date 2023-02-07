@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Feed from "../feed";
+import Feed from "../Feed/feed";
 import Library from "../Library/library";
-import Trending from "../trending";
-import Player from "../player";
-import Favorites from "../favorites";
+import Trending from "../Trending/trending";
+import Player from "../Player/player";
+import Favorites from "../favorites/favorites";
 import './home.css'
 import Sidebar from '../../components/sidebar';
 
